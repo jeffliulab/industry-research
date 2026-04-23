@@ -39,6 +39,20 @@ def parse_nav_item(item):
     return None, None
 
 
+def collect_leaves(items):
+    """递归收集 nav 子树里所有 (title, path) 叶子页，
+    穿透任意层的子分组（subgroups）到叶子 .md 文件。"""
+    pages = []
+    for item in items:
+        title, value = parse_nav_item(item)
+        if isinstance(value, list):
+            # 子分组：继续往下钻
+            pages.extend(collect_leaves(value))
+        elif isinstance(value, str) and title is not None:
+            pages.append([title, md_path_to_url(value)])
+    return pages
+
+
 def process_nav(nav):
     tab_data = {}
 
@@ -52,9 +66,11 @@ def process_nav(nav):
             sec_title, sec_value = parse_nav_item(second_item)
 
             if sec_title is None and isinstance(sec_value, str):
+                # 板块自己的 index.md（无标签），不进 dropdown
                 continue
 
             if sec_title and isinstance(sec_value, str):
+                # 一个简单的链接条目（方法论里的 "如何做一次公司调研" 原型式）
                 sections.append({
                     "name": sec_title,
                     "path": md_path_to_url(sec_value),
@@ -63,15 +79,16 @@ def process_nav(nav):
                 continue
 
             if sec_title and isinstance(sec_value, list):
+                # 一个 section（如 "行业研究" / "公司调研"）—— 可能里面还有子分组
                 section_path = ""
-                pages = []
-                for third_item in sec_value:
-                    third_title, third_value = parse_nav_item(third_item)
-                    if isinstance(third_value, str):
-                        if third_title is None:
-                            section_path = md_path_to_url(third_value)
-                        else:
-                            pages.append([third_title, md_path_to_url(third_value)])
+                # 先找 section 的 landing（一个无标签的 index.md 字符串条目）
+                for child in sec_value:
+                    c_title, c_value = parse_nav_item(child)
+                    if isinstance(c_value, str) and c_title is None:
+                        section_path = md_path_to_url(c_value)
+                        break
+                # 再递归收集所有叶子
+                pages = collect_leaves(sec_value)
                 sections.append({
                     "name": sec_title,
                     "path": section_path,
