@@ -85,214 +85,209 @@ nav:
 
   - 人工智能:
       - 01_AI/index.md
-      - 行业研究:
-          - 市场与资本:
-              - 2026 AI 行业格局: 01_AI/01_行业研究/AI行业格局2026.md
-              - AI 商业化：订阅 · API · Token 经济: 01_AI/01_行业研究/AI商业化模式.md
-              - AI 融资与估值全景: 01_AI/01_行业研究/AI融资估值全景.md
-              - 企业 AI 支出结构: 01_AI/01_行业研究/企业AI支出结构.md
-          - 技术前沿:
-              - 大模型路线：Dense · MoE · Reasoning: 01_AI/01_行业研究/大模型路线对比.md
-              - 推理模型专题：从 o1 到 R1 到 Claude 4: 01_AI/01_行业研究/推理模型专题.md
-              - 多模态进展：文生图 · 视频 · 语音: 01_AI/01_行业研究/多模态模型进展.md
-              - 小语言模型 SLM 专题: 01_AI/01_行业研究/SLM专题.md
-              - 大模型评测体系：MMLU · SWE-bench · GPQA: 01_AI/01_行业研究/大模型评测体系.md
-          - 基础设施:
-              - AI 训练基础设施：GPU 供需与云厂格局: 01_AI/01_行业研究/AI训练基础设施.md
-              - AI 芯片初创：Cerebras · Groq · Tenstorrent: 01_AI/01_行业研究/AI芯片初创.md
-              - GPU 云初创：CoreWeave · Lambda · Together: 01_AI/01_行业研究/GPU云初创.md
-              - AI 训练数据提供商：Scale · Surge · Snorkel: 01_AI/01_行业研究/AI训练数据提供商.md
-              - 数据中心与电力瓶颈: 01_AI/01_行业研究/数据中心与电力.md
-          - 智能体与应用:
-              - AI Agent 行业现状与路线分歧: 01_AI/01_行业研究/Agent行业现状.md
-              - 企业 AI 落地模式：Copilot · RAG · Agent: 01_AI/01_行业研究/企业AI落地模式.md
-              - 垂直 AI 玩家全景: 01_AI/01_行业研究/垂直AI全景.md
-          - 开源与生态:
-              - 开源 vs 闭源：生态格局演变: 01_AI/01_行业研究/开源vs闭源.md
-          - 地缘与国家竞争:
-              - 中美 AI 竞争全景: 01_AI/01_行业研究/中美AI竞争.md
-              - 芯片出口管制与反制: 01_AI/01_行业研究/芯片出口管制.md
-              - 中国 AI 梯队结构: 01_AI/01_行业研究/中国AI梯队结构.md
-              - 欧洲 AI 路线与 EU AI Act: 01_AI/01_行业研究/欧洲AI路线.md
-          - 政策与治理:
-              - 全球 AI 监管对照：美 · 欧 · 中 · 英: 01_AI/01_行业研究/全球AI监管对照.md
-          - 安全与负责任 AI:
-              - AI 安全与对齐研究产业化: 01_AI/01_行业研究/AI安全与对齐.md
-              - AI 失败案例与事件库: 01_AI/01_行业研究/AI失败案例.md
-          - 人才与实验室:
-              - AI 人才流动地图: 01_AI/01_行业研究/AI人才流动地图.md
-              - 顶级 AI 实验室概览: 01_AI/01_行业研究/顶级实验室概览.md
-          - 年度展望:
-              - 2026 年度预测与自评: 01_AI/01_行业研究/2026年度预测.md
+      - 市场与资本:
+          - 2026 AI 行业格局: 01_AI/01_市场与资本/AI行业格局2026.md
+          - AI 商业化：订阅 · API · Token 经济: 01_AI/01_市场与资本/AI商业化模式.md
+          - AI 融资与估值全景: 01_AI/01_市场与资本/AI融资估值全景.md
+          - 企业 AI 支出结构: 01_AI/01_市场与资本/企业AI支出结构.md
+      - 技术前沿:
+          - 大模型路线：Dense · MoE · Reasoning: 01_AI/02_技术前沿/大模型路线对比.md
+          - 推理模型专题：从 o1 到 R1 到 Claude 4: 01_AI/02_技术前沿/推理模型专题.md
+          - 多模态进展：文生图 · 视频 · 语音: 01_AI/02_技术前沿/多模态模型进展.md
+          - 小语言模型 SLM 专题: 01_AI/02_技术前沿/SLM专题.md
+          - 大模型评测体系：MMLU · SWE-bench · GPQA: 01_AI/02_技术前沿/大模型评测体系.md
+      - 基础设施:
+          - AI 训练基础设施：GPU 供需与云厂格局: 01_AI/03_基础设施/AI训练基础设施.md
+          - AI 芯片初创：Cerebras · Groq · Tenstorrent: 01_AI/03_基础设施/AI芯片初创.md
+          - GPU 云初创：CoreWeave · Lambda · Together: 01_AI/03_基础设施/GPU云初创.md
+          - AI 训练数据提供商：Scale · Surge · Snorkel: 01_AI/03_基础设施/AI训练数据提供商.md
+          - 数据中心与电力瓶颈: 01_AI/03_基础设施/数据中心与电力.md
+      - 智能体与应用:
+          - AI Agent 行业现状与路线分歧: 01_AI/04_智能体与应用/Agent行业现状.md
+          - 企业 AI 落地模式：Copilot · RAG · Agent: 01_AI/04_智能体与应用/企业AI落地模式.md
+          - 垂直 AI 玩家全景: 01_AI/04_智能体与应用/垂直AI全景.md
+      - 开源与生态:
+          - 开源 vs 闭源：生态格局演变: 01_AI/05_开源与生态/开源vs闭源.md
+      - 地缘与国家竞争:
+          - 中美 AI 竞争全景: 01_AI/06_地缘与国家竞争/中美AI竞争.md
+          - 芯片出口管制与反制: 01_AI/06_地缘与国家竞争/芯片出口管制.md
+          - 中国 AI 梯队结构: 01_AI/06_地缘与国家竞争/中国AI梯队结构.md
+          - 欧洲 AI 路线与 EU AI Act: 01_AI/06_地缘与国家竞争/欧洲AI路线.md
+      - 政策与治理:
+          - 全球 AI 监管对照：美 · 欧 · 中 · 英: 01_AI/07_政策与治理/全球AI监管对照.md
+      - 安全与负责任 AI:
+          - AI 安全与对齐研究产业化: 01_AI/08_安全与负责任/AI安全与对齐.md
+          - AI 失败案例与事件库: 01_AI/08_安全与负责任/AI失败案例.md
+      - 人才与实验室:
+          - AI 人才流动地图: 01_AI/09_人才与实验室/AI人才流动地图.md
+          - 顶级 AI 实验室概览: 01_AI/09_人才与实验室/顶级实验室概览.md
+      - 年度展望:
+          - 2026 年度预测与自评: 01_AI/10_年度展望/2026年度预测.md
       - 公司研究:
           - 美国头部:
-              - Anthropic: 01_AI/02_公司研究/Anthropic.md
-              - OpenAI: 01_AI/02_公司研究/OpenAI.md
-              - Google DeepMind: 01_AI/02_公司研究/Google_DeepMind.md
-              - Meta AI / FAIR: 01_AI/02_公司研究/Meta_AI_FAIR.md
-              - xAI: 01_AI/02_公司研究/xAI.md
+              - Anthropic: 01_AI/11_公司研究/Anthropic.md
+              - OpenAI: 01_AI/11_公司研究/OpenAI.md
+              - Google DeepMind: 01_AI/11_公司研究/Google_DeepMind.md
+              - Meta AI / FAIR: 01_AI/11_公司研究/Meta_AI_FAIR.md
+              - xAI: 01_AI/11_公司研究/xAI.md
           - 海外挑战者:
-              - Mistral AI: 01_AI/02_公司研究/Mistral.md
-              - Cohere: 01_AI/02_公司研究/Cohere.md
-              - Perplexity: 01_AI/02_公司研究/Perplexity.md
-              - Cursor（Anysphere）: 01_AI/02_公司研究/Anysphere.md
-              - Harvey AI: 01_AI/02_公司研究/Harvey.md
-              - Glean: 01_AI/02_公司研究/Glean.md
+              - Mistral AI: 01_AI/11_公司研究/Mistral.md
+              - Cohere: 01_AI/11_公司研究/Cohere.md
+              - Perplexity: 01_AI/11_公司研究/Perplexity.md
+              - Cursor（Anysphere）: 01_AI/11_公司研究/Anysphere.md
+              - Harvey AI: 01_AI/11_公司研究/Harvey.md
+              - Glean: 01_AI/11_公司研究/Glean.md
           - 中国大模型:
-              - DeepSeek: 01_AI/02_公司研究/DeepSeek.md
-              - Moonshot 月之暗面: 01_AI/02_公司研究/Moonshot.md
-              - 智谱 AI: 01_AI/02_公司研究/智谱AI.md
-              - MiniMax: 01_AI/02_公司研究/MiniMax.md
-              - 阿里通义: 01_AI/02_公司研究/阿里通义.md
-              - 字节豆包 / Seed: 01_AI/02_公司研究/字节Seed.md
-              - 百川智能: 01_AI/02_公司研究/百川智能.md
-              - 阶跃星辰: 01_AI/02_公司研究/阶跃星辰.md
-              - 腾讯混元: 01_AI/02_公司研究/腾讯混元.md
+              - DeepSeek: 01_AI/11_公司研究/DeepSeek.md
+              - Moonshot 月之暗面: 01_AI/11_公司研究/Moonshot.md
+              - 智谱 AI: 01_AI/11_公司研究/智谱AI.md
+              - MiniMax: 01_AI/11_公司研究/MiniMax.md
+              - 阿里通义: 01_AI/11_公司研究/阿里通义.md
+              - 字节豆包 / Seed: 01_AI/11_公司研究/字节Seed.md
+              - 百川智能: 01_AI/11_公司研究/百川智能.md
+              - 阶跃星辰: 01_AI/11_公司研究/阶跃星辰.md
+              - 腾讯混元: 01_AI/11_公司研究/腾讯混元.md
       - 产品研究:
           - 基础模型:
-              - Claude 家族: 01_AI/03_产品研究/Claude家族.md
-              - ChatGPT 与 Codex: 01_AI/03_产品研究/ChatGPT.md
-              - Gemini 系列: 01_AI/03_产品研究/Gemini系列.md
-              - DeepSeek V3 / R1: 01_AI/03_产品研究/DeepSeek_V3_R1.md
-              - Qwen 系列: 01_AI/03_产品研究/Qwen系列.md
+              - Claude 家族: 01_AI/12_产品研究/Claude家族.md
+              - ChatGPT 与 Codex: 01_AI/12_产品研究/ChatGPT.md
+              - Gemini 系列: 01_AI/12_产品研究/Gemini系列.md
+              - DeepSeek V3 / R1: 01_AI/12_产品研究/DeepSeek_V3_R1.md
+              - Qwen 系列: 01_AI/12_产品研究/Qwen系列.md
           - Coding 与生产力:
-              - Claude Code: 01_AI/03_产品研究/Claude_Code.md
-              - Cursor: 01_AI/03_产品研究/Cursor.md
-              - Windsurf: 01_AI/03_产品研究/Windsurf.md
-              - v0: 01_AI/03_产品研究/v0.md
-              - Notebook LM: 01_AI/03_产品研究/Notebook_LM.md
+              - Claude Code: 01_AI/12_产品研究/Claude_Code.md
+              - Cursor: 01_AI/12_产品研究/Cursor.md
+              - Windsurf: 01_AI/12_产品研究/Windsurf.md
+              - v0: 01_AI/12_产品研究/v0.md
+              - Notebook LM: 01_AI/12_产品研究/Notebook_LM.md
           - 多模态创作:
-              - Sora: 01_AI/03_产品研究/Sora.md
-              - Runway: 01_AI/03_产品研究/Runway.md
-              - Midjourney: 01_AI/03_产品研究/Midjourney.md
+              - Sora: 01_AI/12_产品研究/Sora.md
+              - Runway: 01_AI/12_产品研究/Runway.md
+              - Midjourney: 01_AI/12_产品研究/Midjourney.md
 
   - 机器人:
       - 02_机器人/index.md
-      - 行业研究:
-          - 市场与格局:
-              - 2026 人形机器人格局: 02_机器人/01_行业研究/人形格局2026.md
-              - 三类机器人市场：工业 · 协作 · 服务: 02_机器人/01_行业研究/三类机器人市场.md
-              - 中美人形机器人产业对比: 02_机器人/01_行业研究/中美产业对比.md
-          - 产业链:
-              - 核心零部件：减速器 · 丝杠 · 电机: 02_机器人/01_行业研究/核心零部件.md
-              - 量产的关键瓶颈: 02_机器人/01_行业研究/量产瓶颈.md
-          - 大脑与数据:
-              - 机器人基础模型 RFM 趋势: 02_机器人/01_行业研究/RFM趋势.md
-              - 数据飞轮：从采集到训练: 02_机器人/01_行业研究/数据飞轮.md
+      - 市场与格局:
+          - 2026 人形机器人格局: 02_机器人/01_市场与格局/人形格局2026.md
+          - 三类机器人市场：工业 · 协作 · 服务: 02_机器人/01_市场与格局/三类机器人市场.md
+          - 中美人形机器人产业对比: 02_机器人/01_市场与格局/中美产业对比.md
+      - 产业链:
+          - 核心零部件：减速器 · 丝杠 · 电机: 02_机器人/02_产业链/核心零部件.md
+          - 量产的关键瓶颈: 02_机器人/02_产业链/量产瓶颈.md
+      - 大脑与数据:
+          - 机器人基础模型 RFM 趋势: 02_机器人/03_大脑与数据/RFM趋势.md
+          - 数据飞轮：从采集到训练: 02_机器人/03_大脑与数据/数据飞轮.md
       - 公司研究:
           - 美国头部:
-              - Tesla Optimus: 02_机器人/02_公司研究/Tesla_Optimus.md
-              - Figure AI: 02_机器人/02_公司研究/Figure.md
-              - Boston Dynamics: 02_机器人/02_公司研究/Boston_Dynamics.md
-              - Agility Robotics: 02_机器人/02_公司研究/Agility.md
-              - 1X Technologies: 02_机器人/02_公司研究/1X.md
-              - Apptronik: 02_机器人/02_公司研究/Apptronik.md
-              - Sanctuary AI: 02_机器人/02_公司研究/Sanctuary.md
+              - Tesla Optimus: 02_机器人/11_公司研究/Tesla_Optimus.md
+              - Figure AI: 02_机器人/11_公司研究/Figure.md
+              - Boston Dynamics: 02_机器人/11_公司研究/Boston_Dynamics.md
+              - Agility Robotics: 02_机器人/11_公司研究/Agility.md
+              - 1X Technologies: 02_机器人/11_公司研究/1X.md
+              - Apptronik: 02_机器人/11_公司研究/Apptronik.md
+              - Sanctuary AI: 02_机器人/11_公司研究/Sanctuary.md
           - 中国头部:
-              - 宇树科技: 02_机器人/02_公司研究/宇树.md
-              - 智元机器人: 02_机器人/02_公司研究/智元.md
-              - 优必选: 02_机器人/02_公司研究/优必选.md
-              - 傅利叶: 02_机器人/02_公司研究/傅利叶.md
-              - 星动纪元: 02_机器人/02_公司研究/星动纪元.md
-              - 乐聚机器人: 02_机器人/02_公司研究/乐聚.md
+              - 宇树科技: 02_机器人/11_公司研究/宇树.md
+              - 智元机器人: 02_机器人/11_公司研究/智元.md
+              - 优必选: 02_机器人/11_公司研究/优必选.md
+              - 傅利叶: 02_机器人/11_公司研究/傅利叶.md
+              - 星动纪元: 02_机器人/11_公司研究/星动纪元.md
+              - 乐聚机器人: 02_机器人/11_公司研究/乐聚.md
       - 产品研究:
-          - Optimus 系列: 02_机器人/03_产品研究/Optimus.md
-          - Figure 02 / 03: 02_机器人/03_产品研究/Figure_02_03.md
-          - Unitree G1 / H1: 02_机器人/03_产品研究/Unitree_G1_H1.md
-          - Atlas Electric: 02_机器人/03_产品研究/Atlas_Electric.md
-          - 1X NEO: 02_机器人/03_产品研究/NEO.md
+          - Optimus 系列: 02_机器人/12_产品研究/Optimus.md
+          - Figure 02 / 03: 02_机器人/12_产品研究/Figure_02_03.md
+          - Unitree G1 / H1: 02_机器人/12_产品研究/Unitree_G1_H1.md
+          - Atlas Electric: 02_机器人/12_产品研究/Atlas_Electric.md
+          - 1X NEO: 02_机器人/12_产品研究/NEO.md
 
   - 具身智能:
       - 03_具身智能/index.md
-      - 行业研究:
-          - 技术路线:
-              - 技术路线：VLA · VLM · World Model: 03_具身智能/01_行业研究/技术路线.md
-              - 评测基准: 03_具身智能/01_行业研究/评测基准.md
-              - Scaling Law 讨论: 03_具身智能/01_行业研究/Scaling_Law讨论.md
-          - 数据与仿真:
-              - 数据采集：遥操作 · 仿真 · 真机: 03_具身智能/01_行业研究/数据采集.md
-              - Sim2Real 与仿真平台：Isaac · MuJoCo · Genesis: 03_具身智能/01_行业研究/Sim2Real与仿真平台.md
+      - 技术路线:
+          - 技术路线：VLA · VLM · World Model: 03_具身智能/01_技术路线/技术路线.md
+          - 评测基准: 03_具身智能/01_技术路线/评测基准.md
+          - Scaling Law 讨论: 03_具身智能/01_技术路线/Scaling_Law讨论.md
+      - 数据与仿真:
+          - 数据采集：遥操作 · 仿真 · 真机: 03_具身智能/02_数据与仿真/数据采集.md
+          - Sim2Real 与仿真平台：Isaac · MuJoCo · Genesis: 03_具身智能/02_数据与仿真/Sim2Real与仿真平台.md
       - 公司研究:
-          - Physical Intelligence（π）: 03_具身智能/02_公司研究/Physical_Intelligence.md
-          - Skild AI: 03_具身智能/02_公司研究/Skild.md
-          - Covariant: 03_具身智能/02_公司研究/Covariant.md
-          - Wayve: 03_具身智能/02_公司研究/Wayve.md
-          - 银河通用 Galbot: 03_具身智能/02_公司研究/银河通用.md
-          - 千寻智能: 03_具身智能/02_公司研究/千寻智能.md
-          - 穹彻智能: 03_具身智能/02_公司研究/穹彻智能.md
+          - Physical Intelligence（π）: 03_具身智能/11_公司研究/Physical_Intelligence.md
+          - Skild AI: 03_具身智能/11_公司研究/Skild.md
+          - Covariant: 03_具身智能/11_公司研究/Covariant.md
+          - Wayve: 03_具身智能/11_公司研究/Wayve.md
+          - 银河通用 Galbot: 03_具身智能/11_公司研究/银河通用.md
+          - 千寻智能: 03_具身智能/11_公司研究/千寻智能.md
+          - 穹彻智能: 03_具身智能/11_公司研究/穹彻智能.md
       - 产品研究:
-          - π0 / π0.5: 03_具身智能/03_产品研究/π0.md
-          - Helix（Figure）: 03_具身智能/03_产品研究/Helix.md
-          - GR00T（NVIDIA）: 03_具身智能/03_产品研究/GR00T.md
-          - RT-2 / OpenVLA: 03_具身智能/03_产品研究/RT2_OpenVLA.md
-          - RDT（清华）: 03_具身智能/03_产品研究/RDT.md
+          - π0 / π0.5: 03_具身智能/12_产品研究/π0.md
+          - Helix（Figure）: 03_具身智能/12_产品研究/Helix.md
+          - GR00T（NVIDIA）: 03_具身智能/12_产品研究/GR00T.md
+          - RT-2 / OpenVLA: 03_具身智能/12_产品研究/RT2_OpenVLA.md
+          - RDT（清华）: 03_具身智能/12_产品研究/RDT.md
 
   - AI 金融:
       - 04_AI金融/index.md
-      - 行业研究:
-          - 全景与场景:
-              - 金融 AI 六类场景落地: 04_AI金融/01_行业研究/金融落地全景.md
-              - 大模型在投研的应用: 04_AI金融/01_行业研究/投研应用现状.md
-              - AI 在银行 · 保险 · 券商的差异化落地: 04_AI金融/01_行业研究/银保证差异化.md
-          - 专题:
-              - AI 量化 vs 传统量化: 04_AI金融/01_行业研究/AI量化.md
-              - Agent 在金融流程自动化的应用: 04_AI金融/01_行业研究/Agent在金融.md
-          - 治理与监管:
-              - 金融大模型的监管与合规: 04_AI金融/01_行业研究/金融监管合规.md
+      - 全景与场景:
+          - 金融 AI 六类场景落地: 04_AI金融/01_全景与场景/金融落地全景.md
+          - 大模型在投研的应用: 04_AI金融/01_全景与场景/投研应用现状.md
+          - AI 在银行 · 保险 · 券商的差异化落地: 04_AI金融/01_全景与场景/银保证差异化.md
+      - 专题:
+          - AI 量化 vs 传统量化: 04_AI金融/02_专题/AI量化.md
+          - Agent 在金融流程自动化的应用: 04_AI金融/02_专题/Agent在金融.md
+      - 治理与监管:
+          - 金融大模型的监管与合规: 04_AI金融/03_治理与监管/金融监管合规.md
       - 公司研究:
           - 买方 / 卖方:
-              - BlackRock Aladdin AI: 04_AI金融/02_公司研究/BlackRock.md
-              - JPMorgan COIN / IndexGPT: 04_AI金融/02_公司研究/JPMorgan.md
-              - Renaissance · Two Sigma · Bridgewater: 04_AI金融/02_公司研究/Renaissance_Two_Sigma_Bridgewater.md
+              - BlackRock Aladdin AI: 04_AI金融/11_公司研究/BlackRock.md
+              - JPMorgan COIN / IndexGPT: 04_AI金融/11_公司研究/JPMorgan.md
+              - Renaissance · Two Sigma · Bridgewater: 04_AI金融/11_公司研究/Renaissance_Two_Sigma_Bridgewater.md
           - 数据与工具:
-              - Bloomberg 与 BloombergGPT: 04_AI金融/02_公司研究/Bloomberg.md
-              - AlphaSense: 04_AI金融/02_公司研究/AlphaSense.md
-              - Kensho（S&P）: 04_AI金融/02_公司研究/Kensho.md
-              - 同花顺 · 恒生电子: 04_AI金融/02_公司研究/同花顺_恒生电子.md
+              - Bloomberg 与 BloombergGPT: 04_AI金融/11_公司研究/Bloomberg.md
+              - AlphaSense: 04_AI金融/11_公司研究/AlphaSense.md
+              - Kensho（S&P）: 04_AI金融/11_公司研究/Kensho.md
+              - 同花顺 · 恒生电子: 04_AI金融/11_公司研究/同花顺_恒生电子.md
           - 消费金融 / 支付:
-              - 蚂蚁 支小宝 / 百灵: 04_AI金融/02_公司研究/蚂蚁.md
-              - Stripe AI 与 Ramp: 04_AI金融/02_公司研究/Stripe与Ramp.md
-              - DeepSeek 在金融的应用案例: 04_AI金融/02_公司研究/DeepSeek金融应用.md
+              - 蚂蚁 支小宝 / 百灵: 04_AI金融/11_公司研究/蚂蚁.md
+              - Stripe AI 与 Ramp: 04_AI金融/11_公司研究/Stripe与Ramp.md
+              - DeepSeek 在金融的应用案例: 04_AI金融/11_公司研究/DeepSeek金融应用.md
       - 产品研究:
-          - BloombergGPT: 04_AI金融/03_产品研究/BloombergGPT.md
-          - Claude for Financial Analysis: 04_AI金融/03_产品研究/Claude_for_Financial_Analysis.md
-          - IndexGPT（JPM）: 04_AI金融/03_产品研究/IndexGPT.md
-          - Aladdin Copilot: 04_AI金融/03_产品研究/Aladdin_Copilot.md
-          - AlphaSense 产品拆解: 04_AI金融/03_产品研究/AlphaSense产品.md
+          - BloombergGPT: 04_AI金融/12_产品研究/BloombergGPT.md
+          - Claude for Financial Analysis: 04_AI金融/12_产品研究/Claude_for_Financial_Analysis.md
+          - IndexGPT（JPM）: 04_AI金融/12_产品研究/IndexGPT.md
+          - Aladdin Copilot: 04_AI金融/12_产品研究/Aladdin_Copilot.md
+          - AlphaSense 产品拆解: 04_AI金融/12_产品研究/AlphaSense产品.md
 
   - AI 互联网:
       - 05_AI互联网/index.md
-      - 行业研究:
-          - 入口重构:
-              - 生成式搜索革命：Perplexity · SearchGPT · AI Overviews: 05_AI互联网/01_行业研究/生成式搜索革命.md
-              - AI 浏览器崛起：Comet · Arc · Dia: 05_AI互联网/01_行业研究/AI浏览器崛起.md
-          - 产品品类:
-              - AI Coding 产品格局: 05_AI互联网/01_行业研究/AI_Coding产品格局.md
-              - AI 原生社交与陪伴: 05_AI互联网/01_行业研究/AI原生社交.md
-          - 商业与地理:
-              - 广告 vs 订阅：AI 产品商业模式: 05_AI互联网/01_行业研究/AI产品商业模式.md
-              - 中国 AI 应用层大战：豆包 · Kimi · 元宝 · 通义: 05_AI互联网/01_行业研究/中国AI应用层大战.md
+      - 入口重构:
+          - 生成式搜索革命：Perplexity · SearchGPT · AI Overviews: 05_AI互联网/01_入口重构/生成式搜索革命.md
+          - AI 浏览器崛起：Comet · Arc · Dia: 05_AI互联网/01_入口重构/AI浏览器崛起.md
+      - 产品品类:
+          - AI Coding 产品格局: 05_AI互联网/02_产品品类/AI_Coding产品格局.md
+          - AI 原生社交与陪伴: 05_AI互联网/02_产品品类/AI原生社交.md
+      - 商业与地理:
+          - 广告 vs 订阅：AI 产品商业模式: 05_AI互联网/03_商业与地理/AI产品商业模式.md
+          - 中国 AI 应用层大战：豆包 · Kimi · 元宝 · 通义: 05_AI互联网/03_商业与地理/中国AI应用层大战.md
       - 公司研究:
           - 搜索与浏览器:
-              - Perplexity: 05_AI互联网/02_公司研究/Perplexity.md
-              - The Browser Company（Arc / Dia）: 05_AI互联网/02_公司研究/The_Browser_Company.md
+              - Perplexity: 05_AI互联网/11_公司研究/Perplexity.md
+              - The Browser Company（Arc / Dia）: 05_AI互联网/11_公司研究/The_Browser_Company.md
           - Coding 与开发:
-              - Anysphere（Cursor）: 05_AI互联网/02_公司研究/Anysphere.md
-              - Vercel（v0）: 05_AI互联网/02_公司研究/Vercel.md
-              - Replit: 05_AI互联网/02_公司研究/Replit.md
-              - Lovable: 05_AI互联网/02_公司研究/Lovable.md
-              - Bolt.new: 05_AI互联网/02_公司研究/Bolt.md
+              - Anysphere（Cursor）: 05_AI互联网/11_公司研究/Anysphere.md
+              - Vercel（v0）: 05_AI互联网/11_公司研究/Vercel.md
+              - Replit: 05_AI互联网/11_公司研究/Replit.md
+              - Lovable: 05_AI互联网/11_公司研究/Lovable.md
+              - Bolt.new: 05_AI互联网/11_公司研究/Bolt.md
           - 社交与陪伴:
-              - Character.AI: 05_AI互联网/02_公司研究/Character.md
+              - Character.AI: 05_AI互联网/11_公司研究/Character.md
       - 产品研究:
           - 搜索 · 浏览器:
-              - Perplexity Pro 与 Comet 浏览器: 05_AI互联网/03_产品研究/Perplexity_Pro.md
-              - Arc Search / Dia: 05_AI互联网/03_产品研究/Arc_Search_Dia.md
-              - Google AI Overviews: 05_AI互联网/03_产品研究/Google_AI_Overviews.md
-              - Microsoft Copilot Pages: 05_AI互联网/03_产品研究/Copilot_Pages.md
+              - Perplexity Pro 与 Comet 浏览器: 05_AI互联网/12_产品研究/Perplexity_Pro.md
+              - Arc Search / Dia: 05_AI互联网/12_产品研究/Arc_Search_Dia.md
+              - Google AI Overviews: 05_AI互联网/12_产品研究/Google_AI_Overviews.md
+              - Microsoft Copilot Pages: 05_AI互联网/12_产品研究/Copilot_Pages.md
           - 聊天 · 中国应用:
-              - ChatGPT 作为互联网入口的演变: 05_AI互联网/03_产品研究/ChatGPT作为入口.md
-              - Kimi 探索版: 05_AI互联网/03_产品研究/Kimi探索版.md
+              - ChatGPT 作为互联网入口的演变: 05_AI互联网/12_产品研究/ChatGPT作为入口.md
+              - Kimi 探索版: 05_AI互联网/12_产品研究/Kimi探索版.md
 
   - 方法论:
       - 99_方法论/index.md
