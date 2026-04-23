@@ -123,8 +123,24 @@ def generate():
         project_dir, "docs", "site_extra_styles", "javascripts", "tab_dropdown.js"
     )
 
+    # mkdocs.yml 中包含 !!python/name:... 标签（例如 pymdownx.emoji 的
+    # emoji_index / emoji_generator），SafeLoader 默认不认识这些标签，
+    # 这里注册一个"忽略"构造器，把未知标签统一返回 None，避免解析失败。
+    class _IgnoreUnknownTagsLoader(yaml.SafeLoader):
+        pass
+
+    def _ignore_unknown(loader, tag_suffix, node):
+        return None
+
+    _IgnoreUnknownTagsLoader.add_multi_constructor(
+        "tag:yaml.org,2002:python/name:", _ignore_unknown
+    )
+    _IgnoreUnknownTagsLoader.add_multi_constructor(
+        "tag:yaml.org,2002:python/object/apply:", _ignore_unknown
+    )
+
     with open(mkdocs_path, "r", encoding="utf-8") as f:
-        cfg = yaml.safe_load(f)
+        cfg = yaml.load(f, Loader=_IgnoreUnknownTagsLoader)
 
     tab_data = process_nav(cfg.get("nav", []))
     translations = get_nav_translations(cfg)
