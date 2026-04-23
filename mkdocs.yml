@@ -5,7 +5,6 @@ site_description: AI、机器人、具身智能、AI 金融、AI 互联网的行
 
 theme:
   name: material
-  custom_dir: overrides
   language: zh
   features:
     - navigation.tabs
