@@ -89,4 +89,4 @@
 - Stripe / Ramp 官方博客
 - Patrick Collison + Eric Glyman 访谈
 - The Information · Stripe / Ramp 深度
-- 本站 · [AI 支付与风控](../02_专题/AI支付与风控.md) · [Sierra](../../09_AI智能体/11_公司研究/Sierra.md)
+- 本站 · [Agent 在金融](../02_专题/Agent在金融.md) · [Sierra](../../09_AI智能体/11_公司研究/Sierra.md)

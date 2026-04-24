@@ -71,4 +71,4 @@
 
 - TechCrunch · Google-Character 2024-08 deal
 - Noam Shazeer 访谈
-- 本站 · [MiniMax](../../01_AI/11_公司研究/MiniMax.md) · [AI 原生社交](../01_入口重构/AI原生社交.md) · [AI 失败案例](../../01_AI/08_安全与负责任/AI失败案例.md)
+- 本站 · [MiniMax](../../01_AI/11_公司研究/MiniMax.md) · [AI 原生社交](../02_产品品类/AI原生社交.md) · [AI 失败案例](../../01_AI/08_安全与负责任/AI失败案例.md)

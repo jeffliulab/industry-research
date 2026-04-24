@@ -67,4 +67,4 @@ IndexGPT 体现 AI 金融应用的**监管制约**：
 - USPTO 商标数据库（2023-05）
 - Jamie Dimon 2024 年度 letter
 - The Information · IndexGPT 报道
-- 本站 · [JPMorgan](../11_公司研究/JPMorgan.md) · [AI 投顾与财富管理](../02_专题/AI投顾与财富管理.md)
+- 本站 · [JPMorgan](../11_公司研究/JPMorgan.md) · [Agent 在金融](../02_专题/Agent在金融.md)
