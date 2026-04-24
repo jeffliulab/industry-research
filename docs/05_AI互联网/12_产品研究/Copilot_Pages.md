@@ -1,33 +1,50 @@
-# Microsoft_Copilot_Pages
+# Microsoft Copilot Pages
 
-> 最后更新：2026-04-22
+> 最后更新：2026-04-24
 >
-> **待补充**。
+> Microsoft Copilot Pages 是 **Microsoft 2024-09 发布的协作 AI 画布**——**对标 ChatGPT Canvas + Claude Artifacts**。让用户在 **Microsoft 365 Copilot 中生成可协作编辑的动态页面**，结合 AI 生成 + 实时协作 + Teams 集成。
 
 ## 一、产品定位
-一句话说清：这是给谁用的、解决什么问题、与 X 的核心不同是什么。
 
-## 二、核心能力与架构
-- 主要能力
-- 底层模型 / 技术栈
-- 关键架构决策
+Copilot Pages = **"Microsoft 365 的 Artifacts"** —— 不是独立产品，**嵌入在 Microsoft 365 Copilot 中**（$30/seat/月）。面向 **企业协作场景**：会议总结、项目计划、文档协作。
 
-## 三、版本与路线图
-重要版本演化、当前版本、已知下一步动向。
+## 二、核心能力
 
-## 四、定价与商业化
-定价表、付费墙设计、免费-付费转化假设。
+- **AI 生成 + 可编辑页面**
+- **实时多人协作**（Office 365 积累）
+- **Teams 集成**
+- **引用 Microsoft 数据**（邮件 / 文档 / Teams）
+- **版本控制**
+
+## 三、版本演化
+
+| 时间 | 里程碑 |
+|---|---|
+| 2024-09 | **Copilot Pages 发布** |
+| 2024-10 | Teams 集成 |
+| 2025 | 规模化部署 |
+
+## 四、定价
+
+- **仅 Microsoft 365 Copilot $30/seat/月订阅**
+- 企业客户必选
 
 ## 五、用户反馈
-来自社区、推特、Reddit、HN、知乎的真实反馈。标明来源。
+
+- **企业默认采用**：买了 Copilot 就有
+- **协作比 Canvas / Artifacts 强**
+- 批：**UI 笨重**（Microsoft 风格）
 
 ## 六、竞品对比
-| 维度 | 本产品 | 竞品 A | 竞品 B |
-|---|---|---|---|
-| … | … | … | … |
 
-## 七、使用笔记
-（可选：亲自上手的体验记录。）
+| 维度 | Copilot Pages | ChatGPT Canvas | Claude Artifacts | Notion AI |
+|---|---|---|---|---|
+| 协作 | ⭐⭐⭐⭐⭐（Office 365）| ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
+| AI 生成 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
+| 企业场景 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 
-## 八、信息源
-- TBD
+## 七、信息源
+
+- Microsoft 365 Copilot 官方
+- Satya Nadella Ignite 2024 keynote
+- 本站 · [ChatGPT 作为入口](ChatGPT作为入口.md) · [企业 AI 落地模式](../../09_AI智能体/04_企业Agent/企业Agent落地模式.md)
