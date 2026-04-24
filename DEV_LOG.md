@@ -1,87 +1,61 @@
-# 开发日志（DEV_LOG）
+# 开发笔记
 
-> 本站开发过程的详细记录。**面向维护者**，不是面向读者。
-> 读者面向的内容变更见 `docs/` 里各文章的 "最后更新" 字段。
-> 细粒度改动见 [GitHub commits](https://github.com/jeffliulab/industry-research/commits/main)。
-
----
-
-## v0.2 · 2026-04-23 —— 全主题完善
-
-**实质内容翻倍（22 篇 → 59 篇）**：
-
-### v0.2.0 · 方法论框架库（10 篇，高杠杆）
-Wardley Maps / 7 Powers / Commoditize Your Complement / Aggregation Theory + Smiling Curve / Mauboussin 基准率 / Scaling Laws + Compute Overhang / 颠覆创新 + JTBD / Crossing the Chasm / BCG Advantage Matrix / VRIO / RBV
-
-### v0.2.1 · 16 维度锚文章
-- 人工智能 9 篇：推理模型专题 · AI 训练基础设施 · AI Agent 行业现状 · 开源 vs 闭源 · 中国 AI 梯队结构 · 全球 AI 监管对照 · AI 安全与对齐 · AI 人才流动地图 · 2026 年度预测
-- 机器人 2 篇：核心零部件供应链 · RFM 趋势
-- 具身智能 1 篇：Sim2Real 与仿真平台
-- AI 金融 2 篇：AI 量化 · 金融监管合规
-- AI 互联网 2 篇：AI Coding 产品格局 · AI 产品商业模式
-
-### v0.2.2 · 10 家灯塔公司
-DeepSeek / Google DeepMind / Cursor(Anysphere) / Tesla Optimus / Figure AI / 宇树 / Physical Intelligence / Perplexity / BlackRock / Bloomberg
-
-### v0.2.3 · 首页改版 + 年度锚模板
-首页按 v0.2 精选重构；2026 年度预测建立可证伪预测 + 12 月自评机制
-
-### 架构 / 站务
-- IA 完全镜像 Stanford HAI / Benaich / Menlo 等旗舰报告章节结构
-- 方法论板块新设"框架库"子分组
-- 文章间广泛引用框架（Stratechery "累积术语库"风格）
+> 维护者备忘录。**不按版本追踪**——知识库是持续演化的文档，不需要 release cycle。
+>
+> 本文件记录设置关键决策和踩坑，以便未来维护时快速 onboard。
 
 ---
 
-## v0.1 · 2026-04-23 —— 骨架完整 + 旗舰内容落地
+## 站点信息架构决策
 
-**信息架构完成**（历经 4 轮重构）：
-- 5 大板块（人工智能 / 机器人 / 具身智能 / AI 金融 / AI 互联网）+ 方法论 + 关于
-- 每个板块按"内容维度"扁平化组织（废除"行业研究"外壳），维度数量按板块内容深度从 2 到 10 不等
-- 公司研究 / 产品研究 作为"实体索引"与维度并列
-- 人工智能板块 10 个维度完全对标 Stanford HAI / Benaich / Menlo 等旗舰报告章节结构
-- 全站 nav 标签清爽无下划线，URL 1:1 精确对应
+**7 + 1 板块**（8 顶级 tab + 方法论 tab）：
+- 01 人工智能 · 02 机器人 · 03 具身智能 · 04 AI 医疗 · 05 自动驾驶 · 06 脑机接口 · 07 AI 金融 · 08 AI 互联网 · 99 方法论
 
-**视觉与工程**：
-- Tiffany Blue 主色，与姐妹站 ai-notes 做区分
-- Material 图标正确渲染，下拉菜单支持子分组
-- MkDocs + GitHub Actions 部署链路打通
-- git push 踩坑记录（ssh:// 完整 URL 绕开 insteadOf 重写）
+> 注：数字前缀顺序可能与上方文档描述略有差异（按文件夹 `0X_` 前缀为准）
 
-**首批内容**（共 22 篇真内容）：
-- 方法论板块 6 篇全部写完：公司调研方法、产品调研模板、行业研究框架（SCP / 五力 / 价值链）、一手信息源清单、行业数据源、AI 辅助工作流
-- 5 大行业总览文章（每个板块的旗舰入口）
-- Anthropic / OpenAI 两家灯塔公司深度
-- 5 个板块 landing + 关于本站
+**每板块内部**：按"**内容维度**"扁平化（01-10 前缀），不用"行业研究 / 公司研究 / 产品研究"三分法：
+- `0X_<维度>/` 各子主题
+- `11_公司研究/`（实体索引）
+- `12_产品研究/`（实体索引）
 
-**内容蓝图**：159 个 stub 文件已按新 IA 就位，等待 v0.2 填充
+详细原因 见 `行业研究标准方法.md`。
 
 ---
 
-## 2026-04 · 前 v0.1 阶段
+## 视觉与技术选型
 
-- **初始化**：搭建站点骨架，完成内容蓝图（5 行业 × 3 维度 ≈ 130 条目），全部以 stub 形式就绪
-- 配色方案确定：Tiffany Blue，与姐妹站 ai-notes 的靛蓝做区分
-- 方法论板块先行：先写「如何做一次公司调研」「产品调研模板」「行业研究框架」三篇基石文章
-
----
-
-## 规划中
-
-- **v0.3 · 广度铺齐**：★★ 级公司与产品批量补齐，~40 篇
-- **v1.0 · 完整覆盖**：全站无 stub，~170 篇
-- 长期：快评板块（/快评/）· 年度锚 2026 年末自评
+- **站点生成**：MkDocs Material
+- **主色**：Tiffany Blue (`#0ABAB5`)，深色模式 `#4FD1CC`
+- **图标**：Material icon shortcodes（需要 `pymdownx.emoji` 扩展）
+- **黑夜模式**：`prefers-color-scheme` media query + 手动 toggle
+- **部署**：GitHub Actions → Pages（Source 必须设为 "GitHub Actions"）
+- **无右上角 repo 链接**（个人自用，不设 `repo_url`）
 
 ---
 
-## 踩坑记录
+## 关键自动化
 
-**git push 必须用 `ssh://git@github.com/...` 完整 URL**：
-- 用户全局 gitconfig 有 `url.https://github.com/.insteadOf = git@github.com:`，会把所有 SSH 短 URL 重写成 HTTPS
-- HTTPS 走 `gh auth git-credential`，gh token 缺 `workflow` scope，推送包含 `.github/workflows/*` 的 commit 会被 GitHub 拒
-- **解法**：用 `ssh://git@github.com/<user>/<repo>.git` 完整协议格式绕过 insteadOf 重写
+- **`hooks/generate_dropdown.py`**：从 `mkdocs.yml` nav 生成顶栏悬停下拉菜单
+- **`hooks/init_stubs.py`**：新 nav 条目自动生成 stub 文件（按路径判断模板：公司 / 产品 / 行业）
+- **`hooks/flatten_ia.py`**：IA 重构用的迁移脚本（已执行完毕）
+- **`hooks/fix_broken_links.py`**：跨板块链接修复（历史脚本）
 
-**GitHub Pages 用 Actions-based deploy**：
-- 本 repo 的 Pages source 设为 "GitHub Actions"，不能用 `mkdocs gh-deploy --force`
-- 必须用 `actions/upload-pages-artifact@v3` + `actions/deploy-pages@v4`
-- workflow 需要 `permissions: {contents: read, pages: write, id-token: write}`
+---
+
+## Git push 常见障碍（macOS）
+
+**必须用 `ssh://git@github.com/jeffliulab/industry-research.git` 完整协议 URL**。
+
+原因：
+- 全局 gitconfig 的 `url.https://github.com/.insteadOf = git@github.com:` 会把短 SSH URL 重写为 HTTPS
+- HTTPS 走 `gh auth` 凭据，gh token 缺 `workflow` scope → 推带 workflow 文件的 commit 被拒
+- 完整 `ssh://` 协议格式不匹配 insteadOf 规则，绕过这个陷阱
+
+---
+
+## 与姐妹站 ai-notes 的分工
+
+- **ai-notes**：技术原理（Transformer / RLHF / 脑机接口信号处理等学习笔记）
+- **本站**：行业 / 公司 / 产品调研
+
+跨话题相互链接，不重复写作。
