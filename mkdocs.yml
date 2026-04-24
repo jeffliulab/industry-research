@@ -1,7 +1,7 @@
-site_name: 行业研究 | Industry Research
+site_name: AI Industry Research
 site_author: 刘杰夫
-site_url: https://jeffliulab.github.io/industry-research/
-site_description: AI、机器人、具身智能、AI 金融、AI 互联网的行业/公司/产品调研笔记
+site_url: https://jeffliulab.github.io/ai-industry-research/
+site_description: AI、机器人、具身智能、AI 金融、AI 互联网、AI 医疗、自动驾驶、脑机接口 的行业 / 公司 / 产品调研笔记
 
 theme:
   name: material

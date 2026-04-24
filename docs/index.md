@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Industry Research · 行业研究笔记
+# AI Industry Research
 
 ## 研究板块
 

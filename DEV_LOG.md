@@ -44,7 +44,7 @@
 
 ## Git push 常见障碍（macOS）
 
-**必须用 `ssh://git@github.com/jeffliulab/industry-research.git` 完整协议 URL**。
+**必须用 `ssh://git@github.com/jeffliulab/ai-industry-research.git` 完整协议 URL**。
 
 原因：
 - 全局 gitconfig 的 `url.https://github.com/.insteadOf = git@github.com:` 会把短 SSH URL 重写为 HTTPS
