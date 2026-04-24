@@ -131,7 +131,7 @@ EU AI Act 是典型的 **Counter-Positioning**：
 
 **战略含义**：监管本身成为欧洲 AI 产业的"软实力护城河"。
 
-## 用 [Aggregation Theory 框架](../../99_方法论/框架_Aggregation.md) 看为什么欧洲难出 Aggregator
+## 用 [Aggregation Theory 框架](../../99_方法论/框架_聚合理论.md) 看为什么欧洲难出 Aggregator
 
 成为 Aggregator 需要：
 1. 用户规模大 ❌（市场碎片化）

@@ -153,4 +153,4 @@ Perplexity 是 **"AI 搜索引擎 Aggregator"**：自己不训练前沿大模型
 - Perplexity 官方博客（perplexity.ai）
 - Aravind Srinivas 访谈 · Lex Fridman / Acquired 播客
 - The Information · Perplexity 内部报道
-- 本站 · [Perplexity Pro 产品研究](../12_产品研究/Perplexity_Pro.md) · [AI 搜索](../../05_AI互联网/02_产品品类/AI_Coding产品格局.md) · [Aggregation Theory 框架](../../99_方法论/框架_Aggregation.md)
+- 本站 · [AI 搜索](../../05_AI互联网/02_产品品类/AI_Coding产品格局.md) · [Aggregation Theory 框架](../../99_方法论/框架_聚合理论.md)

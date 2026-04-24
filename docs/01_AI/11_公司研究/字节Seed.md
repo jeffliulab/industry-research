@@ -139,4 +139,4 @@
 - 朱文佳 / 梁朝阳公开访谈
 - QuestMobile · 豆包 MAU 报告
 - The Information · TikTok AI 投入
-- 本站 · [中国 AI 梯队结构](../06_地缘与国家竞争/中国AI梯队结构.md) · [中国 AI 应用层大战](../../05_AI互联网/03_商业与地理/中国AI应用层大战.md) · [Aggregation Theory 框架](../../99_方法论/框架_Aggregation.md)
+- 本站 · [中国 AI 梯队结构](../06_地缘与国家竞争/中国AI梯队结构.md) · [中国 AI 应用层大战](../../05_AI互联网/03_商业与地理/中国AI应用层大战.md) · [Aggregation Theory 框架](../../99_方法论/框架_聚合理论.md)
